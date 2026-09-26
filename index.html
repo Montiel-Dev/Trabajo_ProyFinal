@@ -6,14 +6,57 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculadora</title>
     <link rel="stylesheet" href="Styles.css">
-    <center>
-        <h1 class="Titulo">Calculadora</h1>
-    </center>
+
+
 </head>
 
 <body style="background-color: black;">
+    <center>
+        <h1 class="Titulo">Calculadora</h1>
+    </center>
+    <div id="Pantalla">
+    </div>
+    <div class="Botones">
+        <Button style="background-color: orange; border-color: orange;" onclick="limpiar()">C</Button>
+        <Button id="Borrar" onclick="borr()">Borrar</Button>
+        <Button onclick=" agregar('%')">%</Button>
+        <Button onclick="agregar('/')">÷</Button>
 
 
+    </div>
+    <div class="Botones">
+        <Button onclick="agregar('7')">7</Button>
+        <Button onclick="agregar('8')">8</Button>
+        <Button onclick="agregar('9')">9</Button>
+        <Button onclick="agregar('*')">X</Button>
+
+
+    </div>
+    <div class="Botones">
+        <Button onclick="agregar('4')">4</Button>
+        <Button onclick="agregar('5')">5</Button>
+        <Button onclick="agregar('6')">6</Button>
+        <Button onclick="agregar('-')">-</Button>
+    </div>
+    <div class="Botones">
+        <Button onclick="agregar('1')">1</Button>
+        <Button onclick="agregar('2')">2</Button>
+        <Button onclick="agregar('3')">3</Button>
+        <Button onclick="agregar('+')">+</Button>
+
+
+    </div>
+    <div class="Botones">
+        <Button onclick="agregar('0')">0</Button>
+        <Button onclick="agregar('**')">X²</Button>
+        <Button onclick="agregar('.')">.</Button>
+        <Button onclick="calcular()">=</Button>
+
+
+    </div>
+
+
+    <script src="Java.js"></script>
 </body>
 
 </html>

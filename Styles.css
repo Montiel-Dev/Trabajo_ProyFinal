@@ -2,3 +2,38 @@
     color: white;
     font-family: monospace
 }
+
+.Botones {
+
+    justify-content: center;
+    display: grid;
+    grid-template-columns:
+        repeat(4, 1fr);
+    gap: 20px;
+    block-size: auto;
+    margin-bottom: 4px;
+
+
+}
+
+#Borrar {
+    background-color: red;
+    border-color: rgb(112, 7, 7);
+}
+
+Button {
+    background-color: antiquewhite;
+    border-radius: 5%;
+    border-color: whitesmoke;
+}
+
+#Pantalla {
+    background-color: white;
+    height: 50px;
+    width: auto;
+    text-align: right;
+    margin-top: 23px;
+    margin-bottom: 23px;
+    align-items: center;
+
+}
